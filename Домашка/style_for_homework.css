@@ -9,7 +9,7 @@ body {
 body, .list {
 	margin: 0, auto;
 }
-body, .style_head_aside, aside div {
+body{
 	background: gray;
 }
 footer {
@@ -60,15 +60,11 @@ div.text, p.text {
 	letter-spacing: normal;
 	text-align: justify;
 }
-div.text_aside {
-	text-align: justify;
-	font-size: small;
-	
-}
 .ident,dd {
 	margin-left: 30px;
 }
 .style_head_aside  {
+	background: #c4c0c0;
 	width: 230px;
 	float: right;
 	clip: rect(auto);
@@ -77,14 +73,22 @@ div.text_aside {
 	margin-left: 5px;
 	margin-top: 5px;
 }
+
 aside div {
+	background: #c4c0c0;
 	margin: 5px;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	text-align: justify;
+	font-size: small;
 }
-h2,h3, nav.style , footer{
+h2,h3, footer{
 	padding-left: 5px;
 	padding-top: 5px;
+	padding-bottom: 5px;
+}
+nav.nav_style {
+	padding-left: 5px;
 	padding-bottom: 5px;
 }
 h3.dop {
