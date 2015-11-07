@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding-left: 23%;
+	width: 800px;
+}
+body, .list {
+	margin: 0, auto;
+}
+body, .style_head_aside, aside div {
+	background: gray;
+}
+footer {
+	text-align: center;
+}
+h1, .nav {
+	padding-left: 200px;
+	padding-top: 35px;
+}
+ header, footer, article, form, div, nav, .list{
+	background: white;
+	border-radius: 10px;
+}
+img {
+	float: left;
+}
+ul.ul li  {
+	display: inline;
+	list-style-type: none;
+	position:relative;
+}
+.list {
+	width: 70px;
+	height: 60px;
+	position: absolute; 
+	padding: 0;
+	visibility: hidden;
+   clip: rect(auto);
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	padding-left: 2px;
+	padding-top: 3px;
+}
+ul.ul li.li:hover  .list  {
+	visibility: visible;
+	margin: 0, auto;
+	margin-left: 60px;
+	border-radius: 5px;
+}
+div.text, p.text {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	letter-spacing: normal;
+	text-align: justify;
+}
+div.text_aside {
+	text-align: justify;
+	font-size: small;
+	
+}
+.ident,dd {
+	margin-left: 30px;
+}
+.style_head_aside  {
+	width: 230px;
+	float: right;
+	clip: rect(auto);
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+aside div {
+	margin: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h2,h3, nav.style {
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h3.dop {
+	width: 230px;
+	margin-right: 5px;
+	padding-top: 7px;
+}
+table {
+	width: 250px;
+	height: 150px;
+	margin:  auto;
+}
+td input {
+	width: 50px;
+	height: 30px;
+}
+input.zero {
+	width: 104px;
+}
+input.equal {
+	height: 65px;
+}
+input.screen {
+	width: 262px;
+}
+td {
+	padding-top: 5px;
+}
+input.test, input.result {
+	margin-left: 10px;
+}
+input.result {
+	width: 80px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+
+
+

@@ -3,66 +3,66 @@
    <head>
       <title>Тест</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style_for_homework.css" />
    </head>
    <body>
 		<header>
 			<a href="index.html"><img src="webLogo.png" alt="Основы Web-технологий" height="100" /></a>
 			<h1>Основы Web-технологий</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">Главная</a></li>
-					<li><a href="web.html">Web-технологии</a>
-						<ul>
-							<li><a href="htm.html">HTML5</a></li>
-							<li><a href="css.html">CSS3</a></li>
-							<li><a href="js.html">JavaScript</a></li>
+			<nav class="nav" >
+				<ul class="ul" >
+					<li class="li" ><a href="index.html">Главная</a></li>
+					<li class="li" ><a href="web.html" >Web-технологии</a>
+						<ul class="ul list" >
+							<li><a href="htm.html"  >HTML5</a></li>
+							<li><a href="css.html"  >CSS3</a></li>
+							<li><a href="js.html" >JavaScript</a></li>
 						</ul>
 					</li>
-					<li><a href="calc.html">Калькулятор</a></li>
-					<li><a href="test.html">Тест</a></li>
+					<li class="li" ><a href="calc.html">Калькулятор</a></li>
+					<li class="li" ><a href="test.html">Тест</a></li>
 				</ul>
 			</nav>
 		</header>
 		<form>
-			<p>
+			<p class="text"> 
 				Какой тег предназначен для создания ссылок:<br />
-				<input type="radio" name="link" />&lt;a&gt;<br />
-				<input type="radio" name="link" />&lt;a /&gt;<br />
-				<input type="radio" name="link" />&lt;ref&gt;<br />
-				<input type="radio" name="link" />&lt;ref /&gt;
+				<input class="test" type="radio" name="link" />&lt;a&gt;<br />
+				<input class="test" type="radio" name="link" />&lt;a /&gt;<br />
+				<input class="test" type="radio" name="link" />&lt;ref&gt;<br />
+				<input class="test" type="radio" name="link" />&lt;ref /&gt;
 			</p>
-			<p>
+			<p class="text">
 				Какой тег предназначен для создания нумерованного списка:<br />
-				<input type="radio" name="list" />&lt;li&gt;<br />
-				<input type="radio" name="list" />&lt;dl&gt;<br />
-				<input type="radio" name="list" />&lt;ol&gt;<br />
-				<input type="radio" name="list" />&lt;ul&gt;
+				<input  class="test" type="radio" name="list" />&lt;li&gt;<br />
+				<input  class="test" type="radio" name="list" />&lt;dl&gt;<br />
+				<input  class="test" type="radio" name="list" />&lt;ol&gt;<br />
+				<input  class="test" type="radio" name="list" />&lt;ul&gt;
 			</p>
-			<p>
+			<p class="text">
 			Какой тег предназначен для передачи служебной информации браузеру:<br />
-				<input type="radio" name="information" />&lt;info&gt;<br />
-				<input type="radio" name="information" />&lt;info /&gt;<br />
-				<input type="radio" name="information" />&lt;meta&gt;<br />
-				<input type="radio" name="information" />&lt;meta /&gt;
+				<input  class="test" type="radio" name="information" />&lt;info&gt;<br />
+				<input  class="test" type="radio" name="information" />&lt;info /&gt;<br />
+				<input  class="test" type="radio" name="information" />&lt;meta&gt;<br />
+				<input  class="test" type="radio" name="information" />&lt;meta /&gt;
 			</p>
-			<p>
+			<p class="text">
 			Какие теги используются при создании таблицы:<br />
-				<input type="radio" name="table" />&lt;bodyt&gt;<br />
-				<input type="radio" name="table" />&lt;td&gt;<br />
-				<input type="radio" name="table" />&lt;groupcol&gt;<br />
-				<input type="radio" name="table" />&lt;col /&gt;
+				<input  class="test" type="checkbox" name="table" />&lt;bodyt&gt;<br />
+				<input  class="test" type="checkbox" name="table" />&lt;td&gt;<br />
+				<input  class="test" type="checkbox" name="table" />&lt;groupcol&gt;<br />
+				<input  class="test" type="checkbox" name="table" />&lt;col /&gt;
 			</p>
-			<p>
+			<p class="text">
 			Какие атрибуты используются при создании форм:<br />
-				<input type="radio" name="form" />autocomplete<br />
-				<input type="radio" name="form" />action<br />
-				<input type="radio" name="form" />charset<br />
-				<input type="radio" name="form" />valnameate
+				<input  class="test" type="checkbox" name="form" />autocomplete<br />
+				<input  class="test" type="checkbox" name="form" />action<br />
+				<input  class="test" type="checkbox" name="form" />charset<br />
+				<input  class="test" type="checkbox" name="form" />valnameate
 			</p>
-			<input type="button" name="button" value="Результат" />
+			<input  class="result" type="button" name="button" value="Результат" />
 		</form>
 		<footer>
-			<br />
 			<address>
 				<a href="#">Пишите: mail@mail</a><br />
 			</address>
