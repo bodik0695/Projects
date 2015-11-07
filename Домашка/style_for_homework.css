@@ -63,7 +63,7 @@ div.text, p.text {
 .ident,dd {
 	margin-left: 30px;
 }
-.style_head_aside  {
+.style-head-aside  {
 	background: #c4c0c0;
 	width: 230px;
 	float: right;
@@ -87,7 +87,7 @@ h2,h3, footer{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-nav.nav_style {
+nav.nav-style {
 	padding-left: 5px;
 	padding-bottom: 5px;
 }
@@ -126,7 +126,10 @@ input.result {
 	height: 20px;
 	margin-bottom: 10px;
 }
-
+a:hover {
+	background: #e2e2e2;
+	color: blue;
+}
 
 
 
