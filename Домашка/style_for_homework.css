@@ -75,7 +75,7 @@ div.text, p.text {
 }
 
 aside div {
-	background: #c4c0c0;
+	background-color: transparent;
 	margin: 5px;
 	margin-bottom: 5px;
 	margin-top: 5px;
@@ -127,7 +127,7 @@ input.result {
 	margin-bottom: 10px;
 }
 a:hover {
-	background: #e2e2e2;
+	background: #e4e4e4;
 	color: blue;
 }
 
